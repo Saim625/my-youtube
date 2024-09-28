@@ -4,8 +4,14 @@ module.exports = {
     './src/**/*.js'
   ],
   theme: {
-    extend: {},
+    extend: {
+      lineClamp: {
+        2: '2',
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }
 
