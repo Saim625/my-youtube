@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
 import { YOUTUBE_VIDEO_API } from "../utils/constants";
 import VideoCard from "./VideoCard";
@@ -27,3 +28,14 @@ const VideoContainer = () => {
 };
 
 export default VideoContainer;
+=======
+import React from 'react'
+
+const VideoContainer = () => {
+  return (
+    <div>VideoContainer</div>
+  )
+}
+
+export default VideoContainer
+>>>>>>> 91a84d1c483a1349bf7512de582a87094ee15c01

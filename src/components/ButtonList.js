@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import { Button } from './Button'
 
 const ButtonList = () => {
@@ -13,6 +14,12 @@ const ButtonList = () => {
         ))
       }
     </div>
+=======
+
+const ButtonList = () => {
+  return (
+    <div>ButtonList</div>
+>>>>>>> 91a84d1c483a1349bf7512de582a87094ee15c01
   )
 }
 

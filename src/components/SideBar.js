@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
@@ -151,3 +152,14 @@ const SideBar = () => {
 };
 
 export default SideBar;
+=======
+import React from 'react'
+
+const SideBar = () => {
+  return (
+    <div>SideBar</div>
+  )
+}
+
+export default SideBar
+>>>>>>> 91a84d1c483a1349bf7512de582a87094ee15c01

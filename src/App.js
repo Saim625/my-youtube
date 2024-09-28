@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Body from './components/Body';
+<<<<<<< HEAD
 import { Provider } from 'react-redux';
 import store from './utils/store.js';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -34,6 +35,15 @@ function App() {
       <RouterProvider router={appRouter}/>
     </div>
     </Provider>
+=======
+
+function App() {
+  return (
+    <div className=''>
+      <Header/>
+      <Body/>
+    </div>
+>>>>>>> 91a84d1c483a1349bf7512de582a87094ee15c01
   );
 }
 
